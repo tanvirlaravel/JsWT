@@ -3,11 +3,58 @@
 
 <h2 class="my-4 text-info text-center">Functions</h2>
 
-<h4>Contion's</h4>
-<p>if else if else</p>
-<p>switch</p>
-<hr>
 
+<p>The statement return specifies the value returned by the function:</p>
+<p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
+<p>
+  If you pass an object (i.e. a non-primitive value, such as Array or a user-defined object) as a parameter and the function changes the object's properties, that change is visible outside the function
+</p>
+
+<pre class="bg-dark text-white py-3">
+      function myFunc(theObject) {
+        theObject.make = 'Toyota';
+      }
+
+      var mycar = {make: 'Honda', model: 'Accord', year: 1998};
+      var x, y;
+
+      x = mycar.make; // x gets the value "Honda"
+
+      myFunc(mycar);
+      y = mycar.make; // y gets the value "Toyota"
+                      // (the make property was changed by the function)
+</pre>
+<p>Function expressions</p>
+<pre class="bg-dark text-white py-3">
+     const square = function(number) { return number * number }
+     var x = square(4) // x gets the value 16
+</pre>
+<p>However, a name can be provided with a function expression. Providing a name allows the function to refer to itself, and also makes it easier to identify the function in a debugger's stack traces:</p>
+<pre class="bg-dark text-white py-3">
+      const factorial = function fac(n) { return n < 2 ? 1 : n * fac(n - 1) }
+
+      console.log(factorial(3))
+</pre>
+<p>
+  Functions must be in scope when they are called, but the function declaration can be hoisted (appear below the call in the code), as in this example:
+</p>
+
+<p>function hoisting only works with function declarations—not with function expressions.</p>
+<pre class="bg-dark text-white py-3">
+      console.log(square(5));
+      /* ... */
+      function square(n) { return n * n } 
+
+
+      console.log(square)    // square is hoisted with an initial value undefined.
+      console.log(square(5)) // Uncaught TypeError: square is not a function
+      const square = function(n) { 
+        return n * n; 
+      }
+</pre>
+<hr>
+latter 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">link</a>
 <h4>Loops</h4>
 <ul>
   <li>for statement</li>
