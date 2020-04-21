@@ -1,7 +1,7 @@
 
 <?php include_once 'inc/header.php' ?>
 
-<h2 class="my-4 text-info text-center">Condition & Loops</h2>
+<h2 class="my-4 text-info text-center">Functions</h2>
 
 <h4>Contion's</h4>
 <p>if else if else</p>

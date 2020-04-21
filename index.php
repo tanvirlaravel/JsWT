@@ -32,6 +32,24 @@
 			</div>
 		</div>
 
+			<div class="col-md-4">
+			<div class="card bg-white" >			  
+			  <div class="card-body">
+			    <h3 class="card-title text-dark">Operators</h3>
+			   
+			    <ul class="list-group list-group-flush text-dark">
+				  <li class="list-group-item bg-white p-1">Basic Operators — <code>+, -, *, /, (...), %, ++, --</code></li>
+				  <li class="list-group-item bg-white p-1">Comparison Operators — <code>==, ===, !=, !==, >, <, >=, =<, ?</code></li>
+				  <li class="list-group-item bg-white p-1">Logical Operators<code>&&, ||, !</code></li>
+				  <li class="list-group-item bg-white p-1">Bitwise Operators — <code>&, !, ~, ^, <<</code></li>
+				 
+				  
+				</ul>
+			    <a href="varibles.php" class="btn btn-outline-warning mt-2">Details</a>
+			  </div>
+			</div>
+		</div>
+
 		<div class="col-md-4">
 sdfds
 		</div>
