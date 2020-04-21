@@ -1,7 +1,7 @@
 
 <?php include_once 'inc/header.php' ?>
 
-<h3 class="pt-3 text-info">Variables:</h3>
+<h2 class="my-4 text-info text-center">Variables</h2>
 
 <div class="text-justify">
 <p>Variables are used to store information to be referenced and manipulated in a computer program. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory.</p>
@@ -43,7 +43,7 @@ Operating systems load programs into different parts of the computer's memory so
     <a class="nav-item nav-link bg-dark text-white" id="nav-contact-tab" data-toggle="tab" href="#nav-symbol" role="tab" aria-controls="nav-contact" aria-selected="false">Symbol type</a>
     <a class="nav-item nav-link bg-primary text-white" id="nav-contact-tab" data-toggle="tab" href="#nav-objects" role="tab" aria-controls="nav-contact" aria-selected="false">Objects</a>
      <a class="nav-item nav-link bg-dark text-white" id="nav-contact-tab" data-toggle="tab" href="#nav-collections" role="tab" aria-controls="nav-contact" aria-selected="false">Keyed collections: Maps, Sets, WeakMaps, WeakSets</a>
-      <a class="nav-item nav-link bg-info text-white" id="nav-contact-tab" data-toggle="tab" href="#nav-json" role="tab" aria-controls="nav-contact" aria-selected="false">Structured data: JSON</a>
+      <a class="nav-item nav-link bg-success text-white" id="nav-contact-tab" data-toggle="tab" href="#nav-json" role="tab" aria-controls="nav-contact" aria-selected="false">Structured data: JSON</a>
   </div>
 
 </nav>
