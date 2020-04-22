@@ -150,7 +150,13 @@
     <li>document (9): A document node.</li>
 </ul>
 
-
+<hr>
+<h3>Locating DOM elements using selectors</h3>
+<p>The Selectors API provides methods that make it quick and easy to retrieve <code>Element nodes</code> from the DOM by matching against a set of selectors </p>
+<h4>querySelector()</h4>
+<p>Returns the first matching <code>Element node</code> within the node's subtree. If no matching node is found, null is returned.</p>
+<h4>querySelectorAll()</h4>
+<p>Returns a NodeList containing <code>all matching Element nodes</code> all matching Element nodes within the node's subtree, or an empty NodeList if no matches are found.</p>
 
 <nav class="pt-3">
 
