@@ -30,16 +30,12 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="glossory.php">Glossory</a>
+                <a class="nav-link" href="Client-side-web-APIs.php">Client-side web APIs</a>
             </li>
-
-
 
             <li class="nav-item">
-                <a class="nav-link" href="dom.php">DOM</a>
+                <a class="nav-link" href="glossory.php">Glossory</a>
             </li>
-
-
 
         </ul>
         <form class="form-inline my-2 my-lg-0">
