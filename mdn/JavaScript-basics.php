@@ -1,7 +1,7 @@
-<?php include_once 'inc/header.php' ?>
-<?php include_once 'inc/nav.php' ?>
+<?php include_once '../inc/header.php' ?>
+<?php include_once '../inc/nav.php' ?>
 
-<h2 class="my-4 text-info text-center">Client-side web APIs</h2>
+<h2 class="my-4 text-info text-center">Basic</h2>
 
 <div class="row">
     <div class="col-3">
@@ -133,4 +133,4 @@
 
 
 
-<?php include_once 'inc/footer.php' ?>
+<?php include_once '../inc/footer.php' ?>
