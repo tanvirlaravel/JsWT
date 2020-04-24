@@ -30,16 +30,24 @@
                 <a class="nav-link" href="<?= $path ?>Client-side-web-APIs.php">Web APIs</a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="<?= $path ?>mdn/JavaScript-basics.php">Js Basic</a>
+            </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Beginer M
+                    First Steps
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="<?= $path ?>mdn/JavaScript-basics.php">Js Basic</a>
-                    <a class="dropdown-item" href="<?= $path ?>mdn/First-Steps.php">First Steps</a>
-                    <a class="dropdown-item" href="<?= $path ?>index.php">Home</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/What-JavaScript.php">What is JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/first-splash.php">A first splash into JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/Troubleshooting-JavaScript.php">Troubleshooting JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/Variables.php">Variables</a>
+
                 </div>
             </li>
+
+
 
             <li class="nav-item">
                 <a class="nav-link" href="<?= $path ?>glossory.php">Glossory</a>
