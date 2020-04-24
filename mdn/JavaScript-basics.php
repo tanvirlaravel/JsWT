@@ -12,7 +12,7 @@
             <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
         </div>
     </div>
-    <div class="col-9">
+    <div class="col-9 pb-5">
         <h2 class="text-info">What is JavaScript, really?</h2>
         <p>able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p>
         <ul>
@@ -44,6 +44,10 @@
 
         <p> Real interactivity on a website needs events. These are code structures which listen for things happening in the browser and runs code in response.</p>
 
+        <p> <code>null</code> a special value in JavaScript that basically refers to the absence of a value.</p>
+
+        <a href="../examples/basic.php" class="btn btn-outline-info">Image change</a>
+        <a href="../examples/bassic-welcome.php" class="btn btn-outline-info">Welcome getting</a>
 
 
 

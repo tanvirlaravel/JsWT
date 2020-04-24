@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.php">Home</a>
+    <a class="navbar-brand" href="<?= $path ?>index.php">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -7,27 +7,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="varibles.php">Variables</a>
+                <a class="nav-link" href="<?= $path ?>varibles.php">Variables</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="oprerators.php">Operators</a>
+                <a class="nav-link" href="<?= $path ?>oprerators.php">Operators</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="loopCondition.php">Conditon & loops</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="function.php">Function</a>
+                <a class="nav-link" href="<?= $path ?>function.php">Function</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="dom.php">DOM</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="dom-moz.php">DOM MOZ</a>
+                <a class="nav-link" href="<?= $path ?>dom.php">DOM</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="Client-side-web-APIs.php">Web APIs</a>
+                <a class="nav-link" href="<?= $path ?>dom-moz.php">DOM MOZ</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="<?= $path ?>Client-side-web-APIs.php">Web APIs</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -35,15 +35,14 @@
                     Beginer M
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="mdn/JavaScript-basics.php">Js Basic</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../index.php">Home</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/JavaScript-basics.php">Js Basic</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First-Steps.php">First Steps</a>
+                    <a class="dropdown-item" href="<?= $path ?>index.php">Home</a>
                 </div>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="glossory.php">Glossory</a>
+                <a class="nav-link" href="<?= $path ?>glossory.php">Glossory</a>
             </li>
 
         </ul>

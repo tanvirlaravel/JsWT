@@ -10,3 +10,5 @@
 </head>
 
 <body>
+
+    <?php  $path = 'http://jswt.test/'   ?>
