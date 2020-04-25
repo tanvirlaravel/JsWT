@@ -1,7 +1,7 @@
 <?php include_once '../../inc/header.php' ?>
 <?php include_once '../../inc/nav.php' ?>
 
-<h2 class="my-4 text-info text-center">Introduction</h2>
+<h2 class="my-4 text-info text-center">Grammar and types</h2>
 
 
 <hr>
@@ -26,6 +26,37 @@
 <hr>
 <h3 class="text-info">JavaScript documentation versus the ECMAScript specification</h3>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank">later</a>
+
+
+<pre class="bg-dark text-white py-3">
+
+     // create a couple of elements in an otherwise empty HTML page
+     const heading = document.createElement("h1");
+     const heading_text = document.createTextNode("Big Head!");
+     heading.appendChild(heading_text);
+     document.body.appendChild(heading);
+     
+      &lt;div class="parent"&gt;
+        &lt;div class="child">&lt;/div&gt;
+        &lt;!-- --&gt;
+        &lt;div class="child">&lt;/div&gt;
+        &lt;div class="child">&lt;/div&gt;
+        &lt;div class="child">&lt;/div&gt;
+        &lt;div class="child">&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        var parent = document.querySelector('.parent')
+        console.log(parent.childNodes) // returns all child nodes list
+        console.log(parent.children) // returns child element nodes list
+
+    &lt;/script&gt;
+</pre>
+
+
+
+
+
+
 
 
 
