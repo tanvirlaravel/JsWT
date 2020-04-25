@@ -45,6 +45,18 @@
                     <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/Variables.php">Variables</a>
                     <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/numbers-operators.php">numbers and operators</a>
                     <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/strings-JavaScript.php">strings in JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/Arrays.php">Arrays</a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    JavaScript Guide
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<?= $path ?>mdn/JavaScriptGuide/Introduction.php">Introduction</a>
+
 
                 </div>
             </li>
