@@ -31,7 +31,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $path ?>mdn/JavaScript-basics.php">Js Basic</a>
+                <a class="nav-link" href="<?= $path ?>mdn/First_steps/JavaScript-basics.php">Js Basic</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -39,10 +39,12 @@
                     First Steps
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="<?= $path ?>mdn/What-JavaScript.php">What is JavaScript</a>
-                    <a class="dropdown-item" href="<?= $path ?>mdn/first-splash.php">A first splash into JavaScript</a>
-                    <a class="dropdown-item" href="<?= $path ?>mdn/Troubleshooting-JavaScript.php">Troubleshooting JavaScript</a>
-                    <a class="dropdown-item" href="<?= $path ?>mdn/Variables.php">Variables</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/What-JavaScript.php">What is JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/first-splash.php">A first splash into JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/Troubleshooting-JavaScript.php">Troubleshooting JavaScript</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/Variables.php">Variables</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/numbers-operators.php">numbers and operators</a>
+                    <a class="dropdown-item" href="<?= $path ?>mdn/First_steps/strings-JavaScript.php">strings in JavaScript</a>
 
                 </div>
             </li>

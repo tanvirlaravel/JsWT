@@ -1,5 +1,5 @@
-<?php include_once '../inc/header.php' ?>
-<?php include_once '../inc/nav.php' ?>
+<?php include_once '../../inc/header.php' ?>
+<?php include_once '../../inc/nav.php' ?>
 
 <h2 class="my-4 text-success text-center">Basic</h2>
 
@@ -83,4 +83,4 @@
 </div>
 -->
 
-<?php include_once '../inc/footer.php' ?>
+<?php include_once '../../inc/footer.php' ?>

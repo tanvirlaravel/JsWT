@@ -1,5 +1,5 @@
-<?php include_once '../inc/header.php' ?>
-<?php include_once '../inc/nav.php' ?>
+<?php include_once '../../inc/header.php' ?>
+<?php include_once '../../inc/nav.php' ?>
 
 <h2 class="my-4 text-success text-center">First Step</h2>
 
@@ -166,7 +166,7 @@ if your guess was too high or too low.&lt;/p&gt;
 
 
 
-<?php include_once '../inc/footer.php' ?>
+<?php include_once '../../inc/footer.php' ?>
 
 <script>
     let randomNumber = Math.floor(Math.random() * 100) + 1;
